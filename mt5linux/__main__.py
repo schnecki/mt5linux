@@ -144,7 +144,7 @@ def main():
     from subprocess import Popen
     import argparse
     parser = argparse.ArgumentParser(description='Create Server.')
-    parser.add_argument('python', type=str, help='Python that will run the server (have to be a Windows version!)')
+    parser.add_argument('python', type=str, help='Python that will run the server (has to be a Windows version!)')
     parser.add_argument('--host', type=str, default='localhost', help='The host to connect to. The default is localhost')
     parser.add_argument('-p','--port', type=int, default=DEFAULT_SERVER_PORT, help=f'The TCP listener port (default = {DEFAULT_SERVER_PORT!r}, default for SSL = {DEFAULT_SERVER_SSL_PORT!r})')
     parser.add_argument('-w','--wine', type=str, default='wine', help='Command line to call wine program (default = wine)')

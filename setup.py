@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Lucas Prett Campagna',
     license='MIT',
-    url = 'https://github.com/lucas-campagna/mt5linux',
+    url = 'https://github.com/schnecki/mt5linux',
     install_requires=open('requirements.txt','r').read().split('\n'),
     setup_requires=[],
     tests_require=[],
